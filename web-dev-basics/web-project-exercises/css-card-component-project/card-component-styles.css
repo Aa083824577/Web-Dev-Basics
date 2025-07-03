@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #03045e;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.cart {
+    background-color: rgb(188, 220, 248);
+    border: .5px solid #7eb7c3;
+    max-width: 370px;
+    height: 100%;
+    border-radius: 8px ;
+    position: relative;
+    transition: all 1s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Default shadow */
+    transition: all 0.3s ease;
+}
+.cart img {
+    width: 100%;
+}
+

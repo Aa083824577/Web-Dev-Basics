@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    font-family: Arial, Roboto, sans-serif; /* Capitalized 'Roboto' */
+ 
+    margin: 5 0 0 0 ;
+    padding: 0;
+}
+
+/* 
+Police utilisée dans la page: Roboto, Arial ou sans-serif 
+*/
+
+section {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    max-width: 800px;
+    color: white;
+    background-image: url(../pc.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 100px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+
+/* 
+Section : 
+ - centrée.
+ - largeur maximale: 800px
+ - couleur texte : blanche
+ - image de fond: "programming-skills" sans répétition.
+      - taille: couvre la largeur de la section.
+      - partie visible : centre de l'image.
+ - rayon de la bordure: 10px.
+ - marges internes: 100px.
+*/
+
+h1 {
+    text-align: center ;
+    font-size: 3em;
+    font-weight: 400;
+    color:white;
+    border-bottom: 1px solid white; 
+    margin: 50px ; 
+    padding: 5px;; 
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* 
+    Titre de la section: 
+    - texte centré.
+    - taille police: 3 fois la taille normale.
+    - épaisseur police: 400.
+    - couleur de fond: noir avec opacité de 40%.
+    - bordure inférieure: 
+       - épaisseur: 1px
+       - couleur: blanc
+       - type: ligne continue.
+    - marges externes inférieures: 50px.
+*/
+
+p {
+    font-size: 18px;
+    line-height: 1.5; 
+    margin: 3em
+ }
+/* 
+    Paragraphe de la section: 
+    - taille police: 18px.
+    - hauteur de la ligne: 1.5 fois la taille normale du texte.
+    - marge externe inférieure: 3 fois la taille normale du texte.
+*/
+
+a {
+    color: black;
+    text-decoration: none;
+    border: 1px solid;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: 500;
+
+}
+
+/* 
+    Lien de la section: 
+    - couleur de fond: blanc
+    - couleur texte: noir.
+    - supprimer la sous-ligne.
+    - rayon de la bordure: 10px.
+    - marges internes: 10px haut/bas et 20px gauche/droite.
+*/

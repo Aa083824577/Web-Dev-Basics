@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .caree{
+            width: 100px;
+            height: 100px;
+            background-color: #03045e;
+            border-radius:50% ;
+            position: relative;
+            animation-name: exemple;
+            animation-duration: 5s;
+            animation-fill-mode:forwards;
+        }
+        p{
+            position: absolute;
+            top: 50%;
+            font-size: 20px;
+ 
+        }
+
+        @keyframes exemple {
+            100%{
+                background-color: #0077b6;
+                transform: translate(200px, 0px) rotate(360deg);
+                
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="caree">
+        <p>HJ</p>
+    </div>
+</body>
+</html>

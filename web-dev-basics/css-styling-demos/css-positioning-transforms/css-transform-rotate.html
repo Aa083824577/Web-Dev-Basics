@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            margin: 100px;
+            display: flex;
+            justify-items: center;
+            justify-content: center;
+        }
+
+        .grn{
+            background-color: green;
+            width: 100px;
+            height: 100px;
+            transition: 2s
+        }
+        .grn:hover{
+            transform: rotate(45deg);
+            transform-origin: top left;
+        }
+    </style>
+</head>
+<body>
+    <div class="grn"></div>
+</body>
+</html>

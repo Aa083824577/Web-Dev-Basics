@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .caree{
+            width: 100px;
+            height: 100px;
+            background-color: #03045e;
+            animation-name: exemple;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: linear;
+        }
+        @keyframes exemple {
+            0%{
+                background-color: #0077b6;
+                transform: translate(0px, 0px);
+            }
+            25%{
+                background-color: #00b4d8;
+                transform: translate(200px,0px);
+            }
+            50%{
+                background-color: #90e0ef;
+                transform: translate(200px,200px);
+            }
+            75%{
+                background-color: #caf0f8;
+                transform: translate(0px,200px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="caree"></div>
+</body>
+</html>
