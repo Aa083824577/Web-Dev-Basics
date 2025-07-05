@@ -1,0 +1,15 @@
+*{
+padding: 0px;
+margin: 0px;
+
+}
+.br{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    object-fit: cover;
+    transition: filter 0.3 ease ;
+}
+.br:hover{
+    transition: scale(1.1);
+}

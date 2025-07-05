@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/kurp2.jpg);
+    background-position: center;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav{
+    height: 15%;
+    width: 85%;
+    border: 1px rgb(215, 215, 215) solid;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgba(173, 216, 230, 0.388);
+}
+.nav p {
+    display:none;
+    cursor: pointer;
+}
+.nav img {
+    width: 130px;
+    cursor: pointer;
+}
+.nav .list ul{
+    display:flex ;
+    flex-direction: row;
+}
+ul li  {
+    padding: 10px;
+    list-style: none;
+    cursor: pointer;
+}
+.nav .list ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+@media screen and (max-width:768px){
+    .nav .list ul li {
+        display:none;
+    }
+
+    .nav p{
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+    }
+    .nav .menu{
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 1;
+        align-items: center;
+    }
+
+}
